@@ -15,7 +15,7 @@ class CaptchaBuilder extends CaptchaAction{
 		$this->width = 80;
 		$this->height = 45;
 		
-		//$this->imageLibrary = "gd";// $this->imageLibrary = "imagick";
+		//$this->imageLibrary = "gd";//or $this->imageLibrary = "imagick";
    }
    /**
    * @return string verfiycode image base64
