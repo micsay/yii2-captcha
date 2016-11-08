@@ -1,6 +1,6 @@
 # yii2-captcha
 ###installation
-`php composer.phar require micsay/yii2-captcha ~1.0`
+`php composer.phar require micsay/yii2-captcha ~1.1`
 ###Usage
 ```
 use micsay\captcha\CaptchaBuilder;
