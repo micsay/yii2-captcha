@@ -1,12 +1,17 @@
 {
-    "name": "micsay/yii2-captcha",
-    "description": "yii2-captcha for restful api by returning image's base64 extend yii/captcha/CaptchaAction",
-    "license": "Apache License 2.0",
-    "require": {
-        "php": ">=5.4.0",
-        "yiisoft/yii2": "*"
-    },
-    "autoload": {
-      "psr-4": {"micsay\\": ""}
-    }
+  "name": "micsay/yii2-captcha",
+  "description": "yii2-captcha for restful api by returning image's base64 extend yii/captcha/CaptchaAction",
+  "keywords": ["yii2", "captcha", "restful", "base64"],
+  "license": "Apache License 2.0",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "autoload": {
+    "psr-4": {"micsay\\": ""}
+  }
 }
